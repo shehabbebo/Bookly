@@ -15,9 +15,12 @@ class SearchViewBody extends StatelessWidget {
         children: [
           CustomSearchText(),
           SizedBox(height: 16),
-          Text(
-            'Search Result',
-            style: styles.TextStyle18,
+          Align(
+            alignment: Alignment.bottomLeft,
+            child: Text(
+              'Search Result',
+              style: styles.TextStyle18,
+            ),
           ),
           SizedBox(height: 16),
           Expanded(child: SearcResultListView()),
