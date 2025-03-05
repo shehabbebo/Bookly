@@ -1,7 +1,7 @@
 import 'package:bookly/core/utils/styles.dart';
-import 'package:bookly/features/Home/presentation/views/weight/CustomBookImage_item.dart';
-import 'package:bookly/features/Home/presentation/views/weight/book_rating.dart';
-import 'package:bookly/features/Home/presentation/views/weight/books_action.dart';
+import 'package:bookly/features/Home/views/weight/CustomBookImage_item.dart';
+import 'package:bookly/features/Home/views/weight/book_rating.dart';
+import 'package:bookly/features/Home/views/weight/books_action.dart';
 import 'package:flutter/material.dart';
 
 class BookDetsildSeccion extends StatelessWidget {

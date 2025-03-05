@@ -1,8 +1,7 @@
 import 'package:bookly/core/utils/styles.dart';
-import 'package:bookly/features/Home/presentation/views/weight/best_Seller_itemView.dart';
+import 'package:bookly/features/Home/views/weight/best_Seller_itemView.dart';
 import 'package:bookly/features/search/presentation/views/custom_search_text_filed.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class SearchViewBody extends StatelessWidget {
   const SearchViewBody({super.key});
